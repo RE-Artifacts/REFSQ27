@@ -4,6 +4,7 @@ library(dplyr)
 library(stats)
 library(paletteer)
 library(PMCMRplus)
+library(effectsize)
 
 # function for splitting data in the form of mm:ss to seconds
 to_sec <- function(x) {
@@ -50,7 +51,7 @@ duration_wo_reqs <- activity_no_req %>%
   group_by(Participant, Activity_Category) %>%
   summarise(seconds = sum(duration), .groups = "drop")
 
-# plot to make Figure 2a
+# plot to make Figure 1a
 ggplot(duration_wo_reqs, aes(x=Participant, y=seconds/60,fill=factor(Activity_Category, levels=c("Requirements", "Code", "Commits", "MR Overview", "Issue", "Other", "Writing Review", "Testing")))) + 
   geom_col() +
   scale_fill_manual(values = c(
@@ -63,22 +64,8 @@ ggplot(duration_wo_reqs, aes(x=Participant, y=seconds/60,fill=factor(Activity_Ca
     "Writing Review" = "#920000",
     "Other" = "#B6DBFF"
   )) +
-  scale_x_discrete(
-    labels = c(
-      "A" = expression(atop("A", italic("(S)"))),
-      "B" = expression(atop("B", italic("(S)"))),
-      "C" = expression(atop("C", italic("(S)"))),
-      "D" = expression(atop("D", italic("(S)"))),
-      "E" = expression(atop("E", italic("(C)"))),
-      "F" = expression(atop("F", italic("(S)"))),
-      "G" = expression(atop("G", italic("(M)"))),
-      "H" = expression(atop("H", italic("(M)"))),
-      "I" = expression(atop("I", italic("(C)"))),
-      "J" = expression(atop("J", italic("(P)")))
-    )
-  ) +
   labs(
-    x=expression(atop("Subjects", italic("(Effectiveness Rating)"))),
+    x="Subjects",
     y="Duration (minutes)",
     fill="Artifact"
   ) +
@@ -142,7 +129,7 @@ duration_w_reqs <- activity_w_req %>%
   group_by(Participant, Activity_Category) %>%
   summarise(seconds = sum(duration), .groups = "drop")
 
-# plot to make Figure 2b
+# plot to make Figure 1b
 ggplot(duration_w_reqs, aes(x=Participant, y=seconds/60,fill=factor(Activity_Category, levels=c("Requirements", "Code", "Commits", "MR Overview", "Issue", "Other", "Writing Review", "Testing")))) + 
   geom_col() +
   scale_fill_manual(values = c(
@@ -155,22 +142,8 @@ ggplot(duration_w_reqs, aes(x=Participant, y=seconds/60,fill=factor(Activity_Cat
     "Writing Review" = "#920000",
     "Other" = "#B6DBFF"
   )) +
-  scale_x_discrete(
-    labels = c(
-      "A" = expression(atop("A", italic("(P)"))),
-      "B" = expression(atop("B", italic("(C)"))),
-      "C" = expression(atop("C", italic("(M)"))),
-      "D" = expression(atop("D", italic("(P)"))),
-      "E" = expression(atop("E", italic("(C)"))),
-      "F" = expression(atop("F", italic("(P)"))),
-      "G" = expression(atop("G", italic("(M)"))),
-      "H" = expression(atop("H", italic("(M)"))),
-      "I" = expression(atop("I", italic("(C)"))),
-      "J" = expression(atop("J", italic("(M)")))
-    )
-  ) +
   labs(
-    x=expression(atop("Subjects", italic("(Effectiveness Rating)"))),
+    x="Subjects",
     y="Duration (minutes)",
     fill="Artifact"
   ) +
@@ -206,32 +179,36 @@ quartiles_w_reqs_subset <- t(sapply(duration_w_reqs_tidy_subset[sapply(duration_
 # Comparison of Period 1 and Period 2 #
 #######################################
 
-# compare total durations with KWRS test
+# compare total durations with Wilcoxon signed rank
 totals <- data.frame(
   duration = c(duration_w_reqs_tidy$Total, duration_wo_reqs_tidy$Total),
   group = c(
     rep("w_reqs", times=length(duration_w_reqs_tidy$Total)),
     rep("wo_reqs", times=length(duration_wo_reqs_tidy$Total))
   ))
-kruskal.test(duration ~ group, totals)
+wilcox.test(duration_w_reqs_tidy$Total, duration_wo_reqs_tidy$Total, paired = TRUE)
+rank_biserial(duration_w_reqs_tidy$Total, duration_wo_reqs_tidy$Total, paired = TRUE)
 
-# compare Period 1 total duration with Period 2 duration excluding reqs with KWRS test
+# compare Period 1 total duration with Period 2 duration excluding reqs with Wilcoxon signed rank
 totals_minus_reqs <- data.frame(
   duration = c(duration_w_reqs_tidy$TotalMinusReqs, duration_wo_reqs_tidy$Total),
   group = c(
     rep("w_reqs", times=length(duration_w_reqs_tidy$TotalMinusReqs)),
     rep("wo_reqs", times=length(duration_wo_reqs_tidy$Total))
   ))
-kruskal.test(duration ~ group, totals_minus_reqs)
+wilcox.test(duration_w_reqs_tidy$TotalMinusReqs, duration_wo_reqs_tidy$Total, paired = TRUE)
+rank_biserial(duration_w_reqs_tidy$TotalMinusReqs, duration_wo_reqs_tidy$Total, paired = TRUE)
 
-# compare testing durations with KWRS test
+
+# compare testing durations with Wilcoxon signed rank
 testing <- data.frame(
   duration = c(duration_w_reqs_tidy$Testing, duration_wo_reqs_tidy$Testing),
   group = c(
     rep("w_reqs", times=length(duration_w_reqs_tidy$Testing)),
     rep("wo_reqs", times=length(duration_wo_reqs_tidy$Testing))
   ))
-kruskal.test(duration ~ group, testing)
+wilcox.test(duration_w_reqs_tidy$Testing, duration_wo_reqs_tidy$Testing, paired = TRUE)
+rank_biserial(duration_w_reqs_tidy$Testing, duration_wo_reqs_tidy$Testing, paired = TRUE)
 
 ############################
 # Sequence of Requirements #
@@ -256,11 +233,11 @@ by_req_long <- by_req_long %>%
   ) %>%
   mutate(Selected = ifelse(is.na(Selected), 0, Selected))
 
-# plot for Figure C
-ggplot(by_req_long, aes(x = Participant, y = Requirement, size = Duration, color = factor(Selected, levels = c(0,1), labels = c("False","True")))) +
+# plot for Figure 2
+ggplot(by_req_long, aes(x = Requirement, y = Participant, size = Duration, color = factor(Selected, levels = c(0,1), labels = c("False","True")))) +
   geom_point(data = subset(by_req_long, Duration > 0)) +
   geom_point(data = subset(by_req_long, Duration == 0), shape = 4, size = 1, stroke = 1.5) +
-  scale_x_discrete(
+  scale_y_discrete(
     labels = c(
       "A" = "A*",
       "B" = "B",
@@ -274,17 +251,18 @@ ggplot(by_req_long, aes(x = Participant, y = Requirement, size = Duration, color
       "J" = "J"
     )
   ) +
-  scale_y_continuous(breaks = 1:31) + 
+  scale_x_continuous(breaks = 1:31) + 
   scale_color_manual(values = c(
     "True" = "#490092",
     "False" = "#DB6D00"
   )) +
   labs(
-    x = "Subjects",
-    y = "Requirements",
+    x = "Requirements",
+    y = "Subjects",
     color = "Selected",
     size = "Duration\n(seconds)"
-  )
+  ) +
+  theme(text = element_text(size = 20), axis.title.y = element_text(angle = 0, vjust = 0.5))
 
 # Friedman rank sum test comparing duration spent on each requirement 
 friedman.test(Duration ~ Requirement | Participant, data = by_req_long)
@@ -309,6 +287,8 @@ quartiles_subset <- by_req_long_subset %>%
   group_by(Selected) %>%
   summarise(quartiles = list(fivenum(Duration)))
 
-# KWRS testing difference between selected and not selected, for all and for subset
-kruskal.test(Duration ~ Selected, by_req_long_subset)
-kruskal.test(Duration ~ Selected, by_req_long)
+# Wilcoxon rank sum testing difference between selected and not selected, for all and for subset
+wilcox.test(Duration ~ Selected, by_req_long_subset)
+rank_biserial(Duration ~ Selected, by_req_long_subset)
+wilcox.test(Duration ~ Selected, by_req_long)
+rank_biserial(Duration ~ Selected, data=by_req_long)
