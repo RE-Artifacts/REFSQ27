@@ -1,0 +1,438 @@
+Participant,Activity,Start Time,End Time
+A,Overview,0:09,0:16
+A,Requirements,0:16,4:26
+A,Navigating,4:26,4:29
+A,Overview,4:29,4:43
+A,Commits,4:43,4:53
+A,Navigating,4:53,4:56
+A,Code on GitLab,4:56,6:56
+A,Testing,6:56,9:05
+A,Navigating,9:05,9:12
+A,Code on GitLab,9:12,9:48
+A,Navigating,9:48,10:00
+A,Overview,10:00,10:25
+A,Testing,10:25,10:45
+A,Overview,10:45,10:51
+A,Commits,10:51,10:55
+A,Code on GitLab,10:55,12:01
+A,Writing Review,12:01,13:31
+A,Code on GitLab,13:31,14:21
+A,Writing Review,14:21,14:37
+A,Code on GitLab,14:37,16:09
+A,Overview,16:09,16:26
+A,Testing,16:26,17:04
+A,Writing Review,17:04,19:26
+B,Overview,0:11,0:20
+B,Testing,0:20,1:48
+B,Navigating,1:48,1:50
+B,Overview,1:50,1:57
+B,Code on VSCode,1:57,2:09
+B,Overview,2:09,2:10
+B,Commits,2:10,2:14
+B,Code on GitLab,2:14,2:51
+B,Code on VSCode,2:51,3:35
+B,Testing,3:35,4:15
+B,Navigating,4:15,4:18
+B,Overview,4:18,4:28
+B,Writing Review,4:28,4:39
+B,Overview,4:39,4:47
+B,Writing Review,4:47,5:40
+B,Requirements,5:40,6:13
+B,Writing Review,6:13,7:57
+B,Testing,7:57,8:10
+B,Writing Review,8:10,10:05
+B,Overview,10:05,10:12
+B,Requirements,10:12,12:51
+C,Testing,0:28,2:24
+C,Navigating,2:24,2:31
+C,Code on VSCode,2:31,2:43
+C,Navigating,2:43,3:08
+C,Overview,3:08,3:13
+C,Commits,3:13,3:19
+C,Code on GitLab,3:19,4:06
+C,Requirements,4:06,4:43
+C,Code on GitLab,4:43,5:15
+C,Requirements,5:15,5:31
+C,Code on GitLab,5:31,6:44
+C,Code on VSCode,6:44,8:23
+C,Code on GitLab,8:23,8:39
+C,Commits,8:39,8:51
+C,Code on GitLab,8:51,9:35
+C,Requirements,9:35,11:33
+C,Code on GitLab,11:33,15:27
+C,Writing Review,15:27,16:20
+C,Requirements,16:20,16:26
+C,Writing Review,16:26,16:55
+C,Overview,16:55,17:10
+D,Requirements,0:04,0:36
+D,Testing,0:36,1:12
+D,Requirements,1:12,1:19
+D,Testing,1:19,2:02
+D,Requirements,2:02,2:06
+D,Testing,2:06,2:11
+D,Requirements,2:11,2:39
+D,Testing,2:39,2:54
+D,Requirements,2:54,2:57
+D,Testing,2:57,4:20
+D,Requirements,4:20,4:25
+D,Testing,4:25,4:35
+D,Requirements,4:35,5:29
+D,Testing,5:29,5:39
+D,Navigating,5:39,5:53
+D,Overview,5:53,6:04
+D,Commits,6:04,6:09
+D,Code on GitLab,6:09,6:28
+D,Code on VSCode,6:28,6:33
+D,Code on GitLab,6:33,9:21
+D,Code on VSCode,9:21,10:22
+D,Split Screen (Code on GitLab + Code on VSCode),10:22,15:12
+D,Requirements,15:12,15:35
+D,Split Screen (Code on GitLab + Code on VSCode),15:35,17:34
+D,Requirements,17:34,17:42
+D,Split Screen (Code on GitLab + Code on VSCode),17:42,18:19
+D,Requirements,18:19,18:22
+D,Split Screen (Code on GitLab + Code on VSCode),18:22,18:38
+D,Requirements,18:38,18:45
+D,Split Screen (Code on GitLab + Code on VSCode),18:45,22:52
+D,Code on GitLab,22:52,22:57
+D,Requirements,22:57,22:58
+D,Code on GitLab,22:58,23:36
+D,Writing Review,23:36,27:50:00
+D,Code on GitLab,27:50:00,28:05:00
+D,Writing Review,28:05:00,33:13:00
+D,Code on GitLab,33:13:00,33:42:00
+D,Writing Review,33:42:00,33:44:00
+D,Requirements,33:44:00,35:01:00
+E,Requirements,0:00,0:05
+E,Testing,0:05,1:42
+E,Navigating,1:42,1:52
+E,Requirements,1:52,3:16
+E,Testing,3:16,4:29
+E,Requirements,4:29,5:04
+E,Testing,5:04,5:28
+E,Requirements,5:28,6:32
+E,Navigating,6:32,6:49
+E,Overview,6:49,6:57
+E,Code on GitLab,6:57,7:27
+E,Requirements,7:27,7:40
+E,Code on GitLab,7:40,8:55
+E,Testing,8:55,9:10
+E,Code on GitLab,9:10,9:16
+E,Testing,9:16,9:36
+E,Code on GitLab,9:36,10:00
+E,Requirements,10:00,10:00
+E,Code on GitLab,10:16,10:22
+E,Requirements,10:22,10:36
+E,Code on GitLab,10:36,10:52
+E,Requirements,10:52,11:10
+E,Code on GitLab,11:10,11:34
+E,Overview,11:34,11:36
+E,Code on GitLab,11:36,13:19
+E,Navigating,13:19,13:28
+E,Overview,13:28,13:35
+E,Code on GitLab,13:35,13:54
+E,Requirements,13:54,14:48
+E,Code on GitLab,14:48,15:02
+E,Requirements,15:02,15:08
+E,Code on GitLab,15:08,15:59
+E,Writing Review,15:59,17:55
+E,Code on GitLab,17:55,18:11
+E,Writing Review,18:11,20:02
+E,Requirements,20:02,20:04
+E,Writing Review,20:04,20:21
+E,Requirements,20:21,20:22
+E,Writing Review,20:22,21:00
+E,Code on GitLab,21:00,21:36
+E,Overview,21:36,21:45
+E,Writing Review,21:45,23:45
+F,Navigating,0:16,0:23
+F,Requirements,0:23,1:35
+F,Commits,1:35,1:44
+F,Code on GitLab,1:44,1:59
+F,Overview,1:59,2:03
+F,Testing,2:03,2:23
+F,Requirements,2:23,2:25
+F,Testing,2:25,3:17
+F,Requirements,3:17,3:44
+F,Testing,3:44,3:50
+F,Requirements,3:50,4:06
+F,Testing,4:06,4:07
+F,Requirements,4:07,4:11
+F,Testing,4:11,5:08
+F,Requirements,5:08,5:31
+F,Testing,5:31,5:36
+F,Requirements,5:36,5:43
+F,Testing,5:43,5:52
+F,Requirements,5:52,6:07
+F,Testing,6:07,6:14
+F,Requirements,6:14,6:20
+F,Testing,6:20,6:45
+F,Requirements,6:45,7:14
+F,Testing,7:14,8:18
+F,Requirements,8:18,8:39
+F,Testing,8:39,8:53:00
+F,Requirements,8:53:00,9:40
+F,Testing,9:40,9:44
+F,Requirements,9:44,9:47
+F,Testing,9:47,10:02
+F,Requirements,10:02,10:16
+F,Navigating,10:16,10:18
+F,Code on VSCode,10:18,15:08
+F,Requirements,15:08,15:20
+F,Code on VSCode,15:20,19:20
+F,Requirements,19:20,19:25
+F,Code on VSCode,19:25,22:39
+F,Navigating,22:39,22:47
+F,Code on VSCode,22:47,22:52
+F,Navigating,22:52,23:04
+F,Code on VSCode,23:04,23:06
+F,Navigating,23:06,23:11
+F,Code on VSCode,23:11,23:46
+F,Navigating,23:46,24:01:00
+F,Code on VSCode,24:01:00,24:33:00
+F,Navigating,24:33:00,24:52:00
+F,Code on VSCode,24:52:00,25:11:00
+F,Navigating,25:11:00,25:22:00
+F,Code on VSCode,25:22:00,25:27:00
+F,Requirements,25:27:00,25:45:00
+F,Navigating,25:45:00,25:50:00
+F,Code on VSCode,25:50:00,25:59:00
+F,Overview,25:59:00,26:03:00
+F,Code on GitLab,26:03:00,26:27:00
+F,Requirements,26:27:00,26:37:00
+F,Code on GitLab,26:37:00,27:23:00
+F,Code on VSCode,27:23:00,27:29:00
+F,Code on GitLab,27:29:00,27:38:00
+F,Writing Review,27:38:00,28:31:00
+F,Code on VSCode,28:31:00,28:38:00
+F,Writing Review,28:38:00,28:50:00
+F,Testing,28:50:00,28:57:00
+F,Writing Review,28:57:00,29:11:00
+F,Code on GitLab,29:11:00,30:09:00
+F,Commits,30:09:00,30:13:00
+F,Writing Review,30:18:00,30:27:00
+G,Overview,0:10,0:27
+G,Commits,0:27,0:30
+G,Overview,0:30,0:37
+G,Code on GitLab,0:37,0:45
+G,Commits,0:45,0:54
+G,Navigating,0:54,1:05
+G,Overview,1:05,1:12
+G,Commits,1:12,1:20
+G,Code on GitLab,1:20,2:19
+G,Navigating,2:19,2:26
+G,Overview,2:26,2:29
+G,Requirements,2:29,2:47
+G,Testing,2:47,2:58
+G,Requirements,2:58,3:16
+G,Testing,3:16,4:54
+G,Requirements,4:54,5:09
+G,Commits,5:09,5:18
+G,Code on GitLab,5:18,5:48
+G,Testing,5:48,6:16
+G,Commits,6:16,6:22
+G,Code on GitLab,6:22,7:10
+G,Overview,7:10,7:15
+G,Requirements,7:15,7:19
+G,Testing,7:19,7:24
+G,Requirements,7:24,7:40
+G,Testing,7:40,8:44
+G,Requirements,8:44,10:00
+G,Testing,10:00,10:11
+G,Requirements,10:11,10:29
+G,Testing,10:29,10:48
+G,Overview,10:48,11:00
+G,Testing,11:00,11:11
+G,Requirements,11:11,11:34
+G,Testing,11:34,12:30
+G,Requirements,12:30,12:52
+G,Testing,12:52,13:03
+G,Requirements,13:03,13:06
+G,Testing,13:06,13:15
+G,Requirements,13:15,13:22
+G,Testing,13:22,13:25
+G,Requirements,13:25,13:29
+G,Testing,13:29,14:11
+G,Requirements,14:11,14:16
+G,Testing,14:16,14:19
+G,Requirements,14:19,14:28
+G,Testing,14:28,14:37
+G,Requirements,14:37,14:44
+G,Testing,14:44,14:48
+G,Requirements,14:48,16:04
+G,Testing,16:04,16:27
+G,Navigating,16:27,16:36
+G,Requirements,16:36,16:48
+G,Testing,16:48,17:02
+G,Requirements,17:02,17:38
+G,Testing,17:38,17:55
+G,Overview,17:55,18:21
+G,Testing,18:21,18:34
+G,Overview,18:34,18:37
+G,Commits,18:37,18:40
+G,Code on GitLab,18:40,22:01
+G,Testing,22:01,22:32
+G,Code on GitLab,22:32,23:18
+G,Commits,23:18,23:22
+G,Code on GitLab,23:22,25:49:00
+G,Commits,25:49:00,25:54:00
+G,Overview,25:54:00,25:59:00
+G,Code on GitLab,25:59:00,26:43:00
+G,Writing Review,26:43:00,27:10:00
+G,Code on GitLab,27:10:00,27:15:00
+G,Writing Review,27:15:00,28:14:00
+G,Code on GitLab,28:14:00,28:20:00
+G,Testing,28:20:00,28:26:00
+G,Writing Review,28:26:00,28:32:00
+H,Requirements,0:00,0:07
+H,Testing,0:07,0:13
+H,Requirements,0:13,1:18
+H,Testing,1:18,3:45
+H,Navigating,3:45,3:56
+H,Requirements,3:56,4:48
+H,Overview,4:48,5:47
+H,Requirements,5:47,5:52
+H,Overview,5:52,6:18
+H,Requirements,6:18,6:23
+H,Overview,6:23,6:34
+H,Commits,6:34,6:38
+H,Code on GitLab,6:38,6:46
+H,Commits,6:46,6:49
+H,Code on GitLab,6:49,7:18
+H,Code on VSCode,7:18,7:26
+H,Code on GitLab,7:26,7:29
+H,Code on VSCode,7:29,9:25
+H,Code on GitLab,9:25,9:43
+H,Requirements,9:43,10:24
+H,Code on GitLab,10:24,10:31
+H,Requirements,10:31,13:58
+H,Code on GitLab,13:58,14:45
+H,Writing Review,14:45,14:51
+I,Overview,0:11,0:15
+I,Testing,0:15,1:32
+I,Requirements,1:32,1:34
+I,Testing,1:34,1:42
+I,Requirements,1:42,2:15
+I,Testing,2:15,2:44
+I,Requirements,2:44,2:53
+I,Testing,2:53,2:58
+I,Requirements,2:58,3:03
+I,Overview,3:03,3:24
+I,Writing Review,3:24,3:29
+I,Requirements,3:29,4:15
+I,Testing,4:15,4:20
+I,Requirements,4:20,4:47
+I,Testing,4:47,5:00
+I,Requirements,5:00,5:09
+I,Testing,5:09,5:22
+I,Overview,5:22,5:35
+I,Testing,5:35,5:37
+I,Requirements,5:37,5:54
+I,Testing,5:54,7:11
+I,Requirements,7:11,7:23
+I,Testing,7:23,7:26
+I,Requirements,7:26,8:09
+I,Testing,8:09,8:20
+I,Requirements,8:20,9:11
+I,Testing,9:11,9:31
+I,Requirements,9:31,10:15
+I,Testing,10:15,11:20
+I,Requirements,11:20,12:16
+I,Overview,12:16,12:25
+I,Commits,12:25,12:32
+I,Code on GitLab,12:32,12:35
+I,Code on VSCode,12:35,12:40
+I,Code on GitLab,12:40,13:05
+I,Code on VSCode,13:05,14:44
+I,Code on GitLab,14:44,15:25
+I,Code on VSCode,15:25,17:40
+I,Code on GitLab,17:40,18:01
+I,Writing Review,18:01,20:30
+I,Testing,20:30,20:47
+I,Writing Review,20:47,21:40
+I,Testing,21:40,22:02
+I,Requirements,22:02,22:04
+I,Testing,22:04,22:20
+I,Writing Review,22:20,22:53
+J,Navigating,0:12,0:18
+J,Requirements,0:18,3:28
+J,Testing,3:28,4:55
+J,Navigating,4:55,5:08
+J,Requirements,5:08,5:26
+J,Code on VSCode,5:26,5:31
+J,Navigating,5:31,6:02
+J,Overview,6:02,6:08
+J,Commits,6:08,6:15
+J,Code on GitLab,6:15,6:27
+J,Commits,6:27,6:30
+J,Code on GitLab,6:30,7:24
+J,Code on VSCode,7:24,7:36
+J,Code on GitLab,7:36,8:20
+J,Navigating,8:20,8:24
+J,Code on GitLab,8:24,8:43
+J,Code on VSCode,8:43,8:48
+J,Code on GitLab,8:48,8:59
+J,Requirements,8:59,9:02
+J,Code on VSCode,9:02,9:05
+J,Requirements,9:05,9:10
+J,Code on GitLab,9:10,9:27
+J,Navigating,9:27,11:04
+J,Testing,11:04,12:57
+J,Navigating,12:57,13:02
+J,Code on GitLab,13:02,13:16
+J,Requirements,13:16,13:19
+J,Code on GitLab,13:19,13:26
+J,Overview,13:26,13:44
+J,Commits,13:44,13:45
+J,Code on GitLab,13:45,13:46
+J,Overview,13:47,13:49
+J,Navigation,13:49,14:10
+J,Overview,14:10,14:18
+J,Testing,14:18,14:34
+J,Overview,14:34,14:40
+J,Testing,14:40,14:47
+J,Overview,14:47,14:52
+J,Commits,14:52,14:48
+J,Code on GitLab,14:48,15:22
+J,Testing,15:22,15:27
+J,Code on GitLab,15:27,15:59
+J,Testing,15:59,16:03
+J,Code on GitLab,16:03,16:41
+J,Testing,16:41,16:55
+J,Code on GitLab,16:55,17:11
+J,Requirements,17:11,18:39
+J,Testing,18:39,18:44
+J,Requirements,18:44,19:21
+J,Code on GitLab,19:21,21:06
+J,Overview,21:06,21:13
+J,Code on GitLab,21:13,22:05
+J,Requirements,22:05,22:44
+J,Code on GitLab,22:44,23:09
+J,Testing,23:09,25:18:00
+J,Code on GitLab,25:18:00,28:31:00
+J,Requirements,28:31:00,29:15:00
+J,Navigating,29:29:00,29:47:00
+J,Testing,29:47:00,30:22:00
+J,Navigating,30:22:00,31:02:00
+J,Testing,31:02:00,31:43:00
+J,Requirements,31:43:00,32:00:00
+J,Testing,32:00:00,32:03:00
+J,Requirements,32:03:00,32:09:00
+J,Testing,32:09:00,32:17:00
+J,Code on GitLab,32:17:00,32:36:00
+J,Requirements,32:36:00,33:08:00
+J,Code on GitLab,33:08:00,33:18:00
+J,Navigating,33:18:00,33:45:00
+J,Testing,33:45:00,35:22:00
+J,Requirements,35:22:00,36:00:00
+J,Testing,36:00:00,36:09:00
+J,Requirements,36:09:00,37:06:00
+J,Testing,37:06:00,37:09:00
+J,Navigating,37:09:00,37:33:00
+J,Testing,37:33:00,37:53:00
+J,Requirements,37:53:00,38:24:00
+J,Testing,38:24:00,38:30:00
+J,Requirements,38:30:00,39:16:00
+J,Code on GitLab,39:16:00,39:27:00
+J,Overview,39:27:00,39:31:00
+J,Writing Review,39:31:00,39:49:00

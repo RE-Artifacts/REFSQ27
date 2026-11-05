@@ -1,0 +1,32 @@
+ID,Req
+1,"As a user, I want the fruit cards to flip smoothly so the game feels responsive and fun."
+2,"As a user, I want a cheerful background and positive messages when I complete matches to stay motivated."
+3,"As a user, I want the fruits to appear realistic and colorful to make the game visually appealing."
+4,"As a user, I want the 'Play Again' option to clearly restart the game without needing to close and reopen."
+5,"As a user, I want the text and buttons to be large and readable so I can interact easily."
+6,"As a user, I want the interface to be simple, with few distractions, so I can focus on the matching task."
+7,"As a user, I want a calming background color and no flashing animations to avoid eye strain."
+8,"As a user, I want the game to show which cards I selected to focus my attention."
+9,"As a user, I want the game to load quickly so I can start playing right away."
+10,"As a user, I want the background pattern to stay consistent with the fruit theme."
+11,"As a user, I want visual consistency between the color selection screen and the game screen."
+12,"As a user, I want to play the game with only a mouse, without requiring a keyboard."
+13,"As a user, I want the game to work even if I make accidental double-clicks."
+14,"As a user, I want the game to explain the rules briefly before I start so I understand how to play."
+15,"The system shall display an introductory pane containing the Strawbeberya logo, title, and tagline emphasizing memory improvement and fun learning."
+16,The system shall display a 'Pick Your Color Fruit Game' selection pane that shows fruit images representing different color categories 
+17,"When a user selects a color option, the system shall transition to the corresponding color-themed matching game."
+18,Each color game pane shall display a grid of cards representing pairs of fruit images to be matched.
+19,The matching grid shall initialize with fruit images hidden until the user clicks on a card.
+20,The system shall reveal the fruit image when the user clicks a card and checks for a match when two cards are open.
+21,"The system shall include visual indicators (e.g., border highlights) when a card is selected."
+22,"When a correct pair is matched, both cards shall remain visible. If incorrect, both shall flip back after a new card is clicked."
+23,"The system shall display a completion pane when all pairs are matched, congratulating the player and offering the option to play again or quit the game."
+24,"The completion pane shall include a ""Play Again"" button that restarts the game and and a ""Quit"" button, that exit Stawbeberya."
+25,"The game shall close gracefully, ensuring all graphics windows are properly terminated."
+26,The system shall display fruit images with consistent sizing and spacing within the grid.
+27,The grid background shall use a visually distinct color or pattern based on the fruit theme.
+28,The program shall load and display fruit images efficiently to prevent lag when flipping cards.
+29,The system shall display sufficient color contrast to ensure accessibility for users with mild visual impairment.
+30,The system shall use simple mouse-click interactions for all major actions.
+31,"The application shall handle invalid clicks (e.g., clicking the same card twice) gracefully without crashing."

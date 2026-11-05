@@ -1,0 +1,221 @@
+Participant,Activity,Start Time,End Time
+A,Overview,0:00,0:09
+A,Commits,0:09,0:24
+A,Code on GitLab,0:24,1:58
+A,Navigating,1:58,2:21
+A,Code on VSCode,2:21,5:06
+A,Navigating,5:06,9:40
+A,Testing,9:40,9:57
+A,Code on VSCode,9:57,13:06
+A,Navigating,13:06,13:08
+A,Code on GitLab,13:08,13:23
+A,Commits,13:23,13:28
+A,Navigating,13:28,13:37
+A,Overview,13:37,13:41
+A,Writing Review,13:41,16:38
+B,Overview,0:15,0:21
+B,Code on GitLab,0:21,0:53
+B,Navigating,0:53,1:01
+B,Split Screen (Code on GitLab + Code on VSCode),1:01,1:31
+B,Overview,1:31,1:51
+B,Split Screen (Overview + Code on VSCode),1:51,1:59
+B,Code on GitLab,1:59,2:15
+B,Split Screen (Code on GitLab + Code on VSCode),2:15,4:48
+B,Testing,4:48,6:31
+B,Split Screen (Code on GitLab + Code on VSCode),6:31,7:27
+B,Writing Review,7:27,10:07
+C,Overview,0:15,1:20
+C,Issue,1:20,1:42
+C,Commits,1:42,1:53
+C,Code on GitLab,1:53,2:55
+C,Commits,2:55,3:03
+C,Code on GitLab,3:03,3:47
+C,Commits,3:47,3:52
+C,Code on GitLab,3:52,6:06
+C,Code on VSCode,6:06,9:28
+C,Navigating,9:28,9:30
+C,Testing,9:30,10:16
+C,Code on VSCode,10:16,13:02
+C,Navigating,13:02,13:04
+C,Split Screen (Code on GitLab + Code on VSCode),13:04,13:21
+C,Code on VSCode,13:21,17:31
+C,Navigating,17:31,17:43
+C,Code on GitLab,17:43,18:05
+C,Writing Review,18:05,19:03
+C,Code on GitLab,19:03,19:18
+C,Commits,19:18,20:56
+C,Code on VSCode,20:56,21:10
+C,Commits,21:10,21:13
+C,Writing Review,21:13,22:21
+D,Overview,0:03,0:08
+D,Navigating,0:08,0:25
+D,Split Screen (Code on VSCode + Testing),0:25,0:29
+D,Overview,0:29,0:32
+D,Navigating,0:32,0:36
+D,Code on GitLab,0:36,0:45
+D,Split Screen (Code on VSCode + Code on GitLab),0:45,1:02
+D,Code on VSCode,1:02,1:09
+D,Split Screen (Code on VSCode + Code on GitLab),1:09,3:00
+D,Split Screen (Code on VSCode + Testing),3:00,3:07
+D,Testing,3:07,3:23
+D,Split Screen (Code on VSCode + Code on GitLab),3:23,3:26
+D,Split Screen (Code on VSCode + Overview),3:26,3:37
+D,Testing,3:37,3:52
+D,Split Screen (Code on VSCode + Overview),3:52,3:54
+D,Testing,3:54,4:34
+D,Split Screen (Code on VSCode + Overview),4:34,4:40
+D,Navigating,4:40,4:46
+D,Split Screen (Code on VSCode + Code on GitLab),4:46,8:14
+D,Split Screen (Code on VSCode + Testing),8:14,8:19
+D,Split Screen (Code on VSCode + Code on GitLab),8:19,8:25
+D,Split Screen (Code on VSCode + Testing),8:25,8:29
+D,Split Screen (Code on VSCode + Code on GitLab),8:29,8:30
+D,Split Screen (Code on VSCode + Testing),8:30,8:33
+D,Split Screen (Code on VSCode + Code on GitLab),8:33,21:58
+D,Writing Review,21:58,24:57:00
+E,Overview,0:00,0:10
+E,Code on VSCode,0:10,0:15
+E,Testing,0:15,0:24
+E,Overview,0:24,0:36
+E,Testing,0:36,1:17
+E,Navigating,1:17,1:24
+E,Overview,1:24,1:28
+E,Commits,1:28,1:30
+E,Code on GitLab,1:30,2:06
+E,Code on VSCode,2:06,6:01
+E,Testing,6:01,6:30
+E,Code on VSCode,6:30,6:37
+E,Testing,6:37,7:26
+E,Code on VSCode,7:26,7:50
+E,Testing,7:50,7:55
+E,Code on VSCode,7:55,8:24
+E,Code on GitLab,8:24,8:41
+E,Writing Review,8:41,11:48
+E,Code on GitLab,11:48,12:32
+E,Writing Review,12:32,13:11
+E,Code on GitLab,13:11,13:44
+E,Writing Review,13:44,14:07
+E,Code on GitLab,14:07,14:38
+E,Testing,14:38,15:56
+E,Code on GitLab,15:56,16:00
+E,Writing Review,16:00,16:24
+E,Testing,16:24,16:38
+E,Writing Review,16:38,18:27
+E,Code on GitLab,18:27,18:42
+E,Testing,18:42,18:45
+E,Code on GitLab,18:45,19:16
+E,Overview,19:16,19:25
+E,Writing Review,19:25,21:32
+F,Overview,0:09,0:13
+F,Testing,0:13,0:36
+F,Overview,0:36,0:39
+F,Testing,0:39,0:46
+F,Overview,0:46,1:07
+F,Code on GitLab,1:07,1:59
+F,Testing,1:59,2:02
+F,Code on GitLab,2:02,2:26
+F,Testing,2:26,2:29
+F,Code on GitLab,2:29,3:04
+F,Testing,3:04,3:22
+F,Code on GitLab,3:22,3:24
+F,Testing,3:24,3:45
+F,Code on GitLab,3:45,5:44
+F,Code on VSCode,5:44,6:44
+F,Code on GitLab,6:44,6:52
+F,Code on VSCode,6:52,7:10
+F,Navigating,7:10,7:13
+F,Testing,7:13,7:32
+F,Code on GitLab,7:32,8:02
+F,Code on VSCode,8:02,8:40
+F,Navigating,8:40,8:42
+F,Testing,8:42,8:52
+F,Code on GitLab,8:52,8:54
+F,Code on VSCode,8:54,9:06
+F,Code on GitLab,9:06,9:28
+F,Overview,9:28,9:39
+F,Navigating,9:39,9:51
+F,Overview,9:51,10:03
+F,Code on GitLab,10:03,10:27
+F,Overview,10:27,10:33
+F,Writing Review,10:33,12:26
+G,Overview,0:00,0:21
+G,Navigating,0:21,0:30
+G,Code on GitLab,0:30,0:45
+G,Commits,0:45,0:51
+G,Navigating,0:51,1:08
+G,Overview,1:08,1:15
+G,Code on GitLab,1:15,1:30
+G,Testing,1:30,1:37
+G,Navigating,1:37,2:01
+G,Overview,2:01,2:06
+G,Issue,2:06,2:13
+G,Testing,2:13,2:15
+G,Navigating,2:15,2:21
+G,Issue,2:21,2:38
+G,Testing,2:38,3:07
+G,Issue,3:07,3:23
+G,Navigating,3:23,3:32
+G,Overview,3:32,3:49
+G,Code on GitLab,3:49,3:56
+G,Overview,3:56,3:58
+G,Writing Review,3:58,4:03
+H,Overview,0:00,0:25
+H,Commits,0:25,0:29
+H,Code on GitLab,0:29,1:26
+H,Commits,1:26,1:33
+H,Overview,1:33,2:02
+H,Navigating,2:02,2:11
+H,Issue,2:11,4:51
+H,Navigating,4:51,5:07
+H,Overview,5:07,5:16
+H,Commits,5:16,5:35
+H,Code on GitLab,5:35,7:10
+H,Testing,7:10,7:22
+H,Code on GitLab,7:22,8:05
+H,Writing Review,8:05,8:11
+I,Overview,0:23,0:28
+I,Code on GitLab,0:28,1:17
+I,Testing,1:17,1:21
+I,Code on GitLab,1:21,1:24
+I,Testing,1:24,1:38
+I,Code on GitLab,1:38,2:05
+I,Navigating,2:05,2:29
+I,Testing,2:29,2:41
+I,Code on GitLab,2:41,2:45
+I,Navigating,2:45,2:47
+I,Overview,2:47,2:52
+I,Issue,2:52,3:02
+I,Testing,3:02,3:15
+I,Navigating,3:15,3:30
+I,Testing,3:30,3:40
+I,Navigating,3:40,3:49
+I,Testing,3:49,4:20
+I,Issue,4:20,4:28
+I,Code on GitLab,4:28,5:41
+I,Writing Review,5:41,6:11
+I,Testing,6:11,6:14
+I,Writing Review,6:14,6:48
+I,Code on GitLab,6:48,7:47
+I,Writing Review,7:47,12:18
+I,Testing,12:18,12:26
+I,Code on GitLab,12:26,12:57
+I,Writing Review,12:57,13:21
+J,Overview,0:00,0:11
+J,Code on VSCode,0:11,0:34
+J,Navigating,0:34,1:52
+J,Code on VSCode,1:52,3:38
+J,Navigating,3:38,3:40
+J,Testing,3:40,4:10
+J,Code on VSCode,4:10,4:28
+J,Testing,4:28,4:40
+J,Code on VSCode,4:40,5:41
+J,Overview,5:41,5:50
+J,Testing,5:50,6:01
+J,Overview,6:01,6:10
+J,Testing,6:10,7:17
+J,Overview,7:17,7:20
+J,Testing,7:20,7:44
+J,Overview,7:44,7:47
+J,Testing,7:47,8:01
+J,Overview,8:01,8:05
+J,Writing Review,8:05,8:36
